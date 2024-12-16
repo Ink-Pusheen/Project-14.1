@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="Navtesting.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body style="background-color: rgb(201, 138, 56);">
+    
+    <header>
+        <nav>
+            <h2 id="Heading">
+                <a href="./index.html">Home</a> <br> <!-- Home to the meme and location info -->
+                <a href="./boards.html">Boards</a> <br> <!-- Home to Objectives -->
+                <a href="./Hats.html">Strings, Table n Audio</a> <br> <!-- Home to audio clip, table, string manip, and user validation -->
+                <a href="./gameStart.html">Minigame</a> <br> <!-- Home to the game -->
+                <a href="./strings.html">Validation n Palindrome</a> <!-- Home to the login screen and palindrome -->
+            </h2>
+        </nav>
+    </header>
+    
+    <p >
+
+        
+
+
+        <center style="background-color: rgb(211, 123, 60); height: 925px;">
+            <!-- Title text -->
+            <p style="font-size: larger;">
+                Totally Not Cookie Clicker
+            </p>
+
+            
+            <!-- Goal and Cookie Total Text -->
+            Goal: 5k Cookies <br>
+            Total Cookies <br>
+
+            <!-- Cookie Image -->
+            <img id="Cookieimg" src="./Cookie_Png.png" width="100px" height="100px"> <br>
+
+            <!-- Value of total held cookies -->
+            <center id="TotalCookie">
+                0    
+            </center>
+            
+            <center>
+                <!-- Button for clickpower cookies and current baking power text -->
+                <button type="button" onclick="Click()">Make Cookie</button>
+    
+                <p id="CurPower">
+                    Current Baking Power: 1
+                </p> <br>
+                
+                <!-- Button for upgrading clickpower and the cost text of it -->
+                <button type="button" onclick="UpgradeClick()">Upgrade Cookie Making</button>
+    
+                <p id="CosttoUpgrade">
+                    Cost to Upgrade Click: 50
+                </p> <br>
+    
+                <!-- Button for upgrading the autocookie power and the cost text of it -->
+                <button type="button" onclick="UpgradeAutoCookie()">Upgrade Auto Cookie Making</button>
+    
+                <p id="AutoText">
+                    Current Auto Power: 0 Cost to Upgrade: 10
+                </p>
+            </center>
+        </center>
+    </p>
+
+    <!-- Footer Information -->
+    <footer>
+        Aiden Schagren<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283<br>
+        </footer>
+</body>
+</html>

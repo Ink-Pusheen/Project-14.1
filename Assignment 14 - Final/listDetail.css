@@ -1,0 +1,7 @@
+.Animal{
+    border-width: 5px;
+    border-spacing: 5px;
+    border-radius: 15px;
+    border-inline-width: 25px;
+    border-block-width: 4px;
+}

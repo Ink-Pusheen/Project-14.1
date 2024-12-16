@@ -1,0 +1,25 @@
+body{
+    background-color:darkcyan;
+    color: antiquewhite;
+}
+
+nav h2{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#meme{
+    margin-left: 0px;
+}
+
+header{
+    float: center;
+}

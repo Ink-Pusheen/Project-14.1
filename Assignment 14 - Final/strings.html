@@ -1,0 +1,73 @@
+<!-- Work of Aiden Schagren -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Validation.js"></script>
+    <link rel="stylesheet" href="Navtesting.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body style="background-color: rgb(101, 101, 184);">
+    
+    <header>
+        <nav>
+            <h2 id="Heading">
+                <a href="./index.html">Home</a> <br> <!-- Home to the meme and location info -->
+                <a href="./boards.html">Boards</a> <br> <!-- Home to Objectives -->
+                <a href="./Hats.html">Strings, Table n Audio</a> <br> <!-- Home to audio clip, table, string manip, and user validation -->
+                <a href="./gameStart.html">Minigame</a> <br> <!-- Home to the game -->
+                <a href="./strings.html">Validation n Palindrome</a> <!-- Home to the login screen and palindrome -->
+            </h2>
+        </nav>
+    </header>
+
+    <!-- Subject: Login -->
+    <p>
+        Login
+    </p> <br><br>
+
+    
+
+    <!-- Subject: Input Validation Fields -->
+    <form id="registration" onsubmit="checkValidation()">
+
+        <!-- Creates the text and input for First Name -->
+        <label for="Firstname" style="font-family: 'Times New Roman', Times, serif;">First Name</label>
+        <input type="text" id="Firstname" name="Firstname"></input> <br><br>
+
+        <!-- Creates the text and input for Last Name -->
+        <label for="Lastname" style="font-family: 'Times New Roman', Times, serif;">Last Name</label>
+        <input type="text" id="Lastname" name="Lastname"></input> <br><br>
+
+        <!-- Creates the text and input for Zipcode -->
+        <label for="Zipcode" style="font-family: 'Times New Roman', Times, serif;">Zipcode</label>
+        <input type="password" id="Zipcode" name="Zipcode"></input> <br><br>
+
+        <!-- Creates the Button to submit this info to the Javascript -->
+        <input type="submit" value="Submit" style="font-family: 'Times New Roman', Times, serif;"></input>
+
+    </form>
+
+    <p>
+        <img src="Lock.jpg" alt="lock" style="height: 50px;" style="width: 50px;">
+    </p> <br><br>
+
+    <!-- Text field to input text to then submit with the button to check if the word is a palindrome -->
+    <p>
+        <label for="Palindrome">Palindrome</label>
+        <Input type="text" id="Palindrome" name="Palindrome"></input> <br>
+        <button type="button" onclick="checkPalindrome()">Check for Palindrome</button>
+    </p>
+
+    <!-- Footer Information -->
+    <footer>
+        Aiden Schagren<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283<br>
+        </footer>
+
+</body>
+</html>

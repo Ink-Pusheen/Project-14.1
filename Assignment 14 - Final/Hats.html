@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="Classes.js"></script> -->
+    <script src="AudPlayer.js"></script>
+    <script src="TripleLine.js"></script>
+
+    <link rel="stylesheet" href="listDetail.css">
+    <link rel="stylesheet" href="Navtesting.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body style="background-color: crimson;">
+    
+    <header>
+        <nav>
+            <h2 id="Heading">
+                <a href="./index.html">Home</a> <br> <!-- Home to the meme and location info -->
+                <a href="./boards.html">Boards</a> <br> <!-- Home to Objectives -->
+                <a href="./Hats.html">Strings, Table n Audio</a> <br> <!-- Home to audio clip, table, string manip, and user validation -->
+                <a href="./gameStart.html">Minigame</a> <br> <!-- Home to the game -->
+                <a href="./strings.html">Validation n Palindrome</a> <!-- Home to the login screen and palindrome -->
+            </h2>
+        </nav>
+    </header>
+
+<p>
+    <center style="font-family: monospace;">
+        Play the sound
+    </center>
+</p>
+
+<br>
+
+<center>
+    <button type="button" onclick="playAudio()">
+        Play Audio
+        <audio src="Ba ba ba da bba.MP3" type="audio/MP3" id="AudioClip"></audio>
+    </button>
+    <br>
+    <img src="PeppinoGriffin.jpg" id="Pep">
+    <br>
+    
+
+    <br><br><br>
+    <p>
+        Create User
+        <br>
+        Username 
+        <input type="text" id="Name">
+        <br>
+        Password    
+        <input type="text" id="UPassword">
+        <br>
+        <button type="button" onclick="CreateUser()">Create User</button>
+    </p>
+    <br> <br>
+
+    <p>
+        Create a Card
+        <br>
+        <img src="Tarot.jpg" style="height: 250px;" style="width: 250px;">
+        <br>
+        Card Name
+        <input type="text" id="CardName"> <br>
+        Card Rarity
+        <input type="text" id="CardRarity"> <br>
+        <button type="button" onclick="CreateCard()">Create Card</button>
+    </p>
+    <br>
+    <p>
+        Cards
+        <p id="Cards" style="font-family: fantasy;">
+
+        </p>
+        
+    </p>
+
+    <!-- Table holding information of animals -->
+    <table class="Animal" border="">
+        <!-- First Row-->
+        <tr>
+            <th>Animal</th>
+            <th>Sound</th>
+            <th>Location</th>
+            <th>Coat Color</th>
+        </tr>
+
+        <!-- Seconds Row -->
+        <tr>
+            <th>Fox</th>
+            <th>Yip</th>
+            <th>Forest</th>
+            <th>Orange</th>
+        </tr>
+
+        <!-- Third Row -->
+        <tr>
+            <th>Cat</th>
+            <th>Meow</th>
+            <th>House</th>
+            <th>Tuxedo</th>
+        </tr>
+
+        <!-- Fourth Row -->
+        <tr>
+            <th>Penguin</th>
+            <th>Squak</th>
+            <th>Tundra</th>
+            <th>Black and White</th>
+        </tr>
+
+        <!-- Fifth Row-->
+        <tr>
+            <th>Bunny</th>
+            <th>Squeak</th>
+            <th>Woods</th>
+            <th>White</th>
+        </tr>
+    </table>
+
+    
+
+</center>
+
+    <!-- Footer Information -->
+    <footer>
+        Aiden Schagren<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283<br>
+        </footer>
+
+</body>
+</html>
